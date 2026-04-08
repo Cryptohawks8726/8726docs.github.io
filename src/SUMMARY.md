@@ -23,6 +23,7 @@
   - [CANCoders](parts/cancoder.md)
 - [FRC Software](software/software.md)
   - [Game Tools (Driver station)](software/ds.md)
+  - [Choreo and PathPlanner](software/autos.md)
 - [Our Projects](projects/projects.md)
   - [Aluminum](projects/aluminum.md)
   - [SwerveBase](projects/swervebase.md)
