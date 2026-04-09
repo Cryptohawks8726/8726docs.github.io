@@ -91,7 +91,9 @@ The same syntax is used to link to other parts of the book similar
 to how you would link to other parts of a normal website. Instead of a URL,
 use the path to the page you want to link to relative to the `src` folder and starting with a '/'.
 For example, this page is located at `src/about/contributing.md`, so if you wanted to link to it,
-you could write: `[contributing page](/about/contributing.md)`.
+you could write: `[contributing page](/about/contributing.md)`. You can either use the markdown
+file ending (.md) or swap it out for .html, since an HTML file of the same name will be generated
+when the book is built.
 
 If you want to link to a specific section of a page, you can do that by adding
 a '#' after the file and then the name of the section, converted to `kebab-case`
