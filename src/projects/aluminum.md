@@ -26,7 +26,7 @@ at the bottom of this panel.
 
 Above the logo button is an expand button. Clicking on this will toggle between
 the window being docked above the driver station window. When the
-[driver station](software/ds.md) is open (preferably in its docked mode at the bottom of the screen)
+[driver station](../software/ds.md) is open (preferably in its docked mode at the bottom of the screen)
 and this button is clicked, the app will automatically resize itself to take up all of the
 remaining screen area above the driver station and the window bar above it will disappear.
 Clicking the button again returns the window to its normal state.
@@ -50,7 +50,7 @@ This can be used to connect to a simulated robot by connecting to
 
 Cameras are also configured from settings. Aluminum can display any number of MJPEG streams on the dashboard
 screen. The IP address of each stream must be set to the correct IP or you will not see anything
-on the dashboard. See [the page on cameras](/parts/cameras.md)
+on the dashboard. See [the page on cameras](../parts/cameras.md)
 for more information about where to find these IPs.
 
 ### The Dashboard
@@ -68,4 +68,4 @@ indicator in the bottom right which will turn green if connected to a robot.
 ### Testing Motors
 
 Aluminum provides an interface to make working with the MotorTester code
-easier. For more information on this feature see [the section on MotorTester](/docs/projects/motortester.md).
+easier. For more information on this feature see [the section on MotorTester](motortester.md).

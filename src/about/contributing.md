@@ -65,6 +65,17 @@ void myFunction() {
 ```
 ````
 
+Additionally, mdBook supports several extensions to the markdown syntax which may be useful.
+The full list of supported extensions can be found
+[in mdBook's official documentation](https://rust-lang.github.io/mdBook/format/markdown.html#extensions).
+Some of the supported features include tables and admonitions, which can be seen below:
+|This is a | Table |
+|----------|-------|
+|Row 1 | Row 2 |
+
+> [!NOTE]
+> This is an example of an admonition.
+
 ## Adding equations
 
 Rendering equations using LaTeX is supported in mdBook using MathJax.
@@ -89,10 +100,12 @@ Looks like:
 Inserting hyperlinks in markdown is done using this syntax: `[display text](https://example.com)`.
 The same syntax is used to link to other parts of the book similar
 to how you would link to other parts of a normal website. Instead of a URL,
-use the file path or the filename of the page you want to link to.
+use the local file path or the filename of the page you want to link to.
 If you are linking to a page found in the same folder as the current page, then simply use the filename. Otherwise, you would need to cd back into the `/src` folder using `../` and then follow it up with the path to the destination (you may need to write `../` more than once).
-For example, this page is located at `src/about/contributing.md`. If I wanted to provide a link to `about.md`, which is found in the same folder, then I would write `[about page](about.md)`.
-If I wanted to link to the inventory page, which is found under `/src/parts/`, then I would write `(inventory page)[../parts/inventory.md]`.
+For example, this page is located at `src/about/contributing.md`. If you wanted to provide a link to `about.md`,
+which is found in the same folder, then you would write `[about page](about.md)`.
+
+If I wanted to link to the inventory page, which is found under `/src/parts/`, then I would write `[inventory page](../parts/inventory.md)`.
 You can either use the markdown file ending (.md) or swap it out for .html, since an HTML file of the same name will be generated
 when the book is built.
 
@@ -100,11 +113,15 @@ If you want to link to a specific section of a page, you can do that by adding
 a '#' after the file and then the name of the section, converted to `kebab-case`
 with special characters like '.' removed.
 
-These URLs are the same as the end of the URL you see in your browser when you visit
-a certain page of the docs, so you can also just copy everything after `.github.io/docs`
-and use that as the link if you aren't sure what to put. For example, the link to this
+This is the same as the end of the URL you see in your browser when you visit
+a certain page of the docs, so you can also just copy everything after the `#`
+and use that to link to a specific section. For example, the link to this
 section is `https://cryptohawks8726.github.io/docs/about/contributing.html#linking-to-other-parts-of-the-documentation`,
 so to link to this section you would use `contributing.html#linking-to-other-parts-of-the-documentation`.
+
+You can also use the full URL without the domain name, for example, `/docs/about/contributing.html`.
+However, this will not work if the site is run locally or deployed somewhere other than /docs, so
+it is recommended to use the local file paths instead.
 
 ## What's with `highlight.js`?
 
