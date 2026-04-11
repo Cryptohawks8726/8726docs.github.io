@@ -68,4 +68,4 @@ indicator in the bottom right which will turn green if connected to a robot.
 ### Testing Motors
 
 Aluminum provides an interface to make working with the MotorTester code
-easier. For more information on this feature see [the section on MotorTester](/projects/motortester.md).
+easier. For more information on this feature see [the section on MotorTester](/docs/projects/motortester.md).
