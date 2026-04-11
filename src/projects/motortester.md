@@ -29,7 +29,7 @@ MotorTester exposes some values in NetworkTables which can be used to
 register connected motors and then control the connected motors.
 This is most easily done using [Aluminum](../software/aluminum.md),
 which has an interface to add or run motors. However, it can
-also be used manually through a tool like [Glass](../software/wpilib.md).
+also be used manually through a tool like [Glass](../software/wpilib.md#glass).
 
 First, deploy the MotorTester code onto the roboRIO (or SystemCore)
 and ensure all motors are connected to the CAN bus and are receiving power.

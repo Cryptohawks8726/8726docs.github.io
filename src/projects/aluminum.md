@@ -65,6 +65,10 @@ indicator in the bottom right which will turn green if connected to a robot.
 
 ### The Debug Panel
 
+Aluminum's debug panel functions similarly to [Glass](../software/wpilib.md#glass), although it can
+be more convenient since it is organized to work with how our team typically structures data
+in NetworkTables, allowing you to easily view data for each individual subsystem.
+
 ### Testing Motors
 
 Aluminum provides an interface to make working with the MotorTester code
