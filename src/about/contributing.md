@@ -129,5 +129,5 @@ and run `mdBook build`, which will build a website in a folder titled `book`. Ru
 host the website at localhost:3000. For more information and installation instructions,
 see [mdBook's user guide](https://rust-lang.github.io/mdBook/guide/installation.html).
 
-[this is a test](parts/sparkmax.md)
+[this is a test](/parts/sparkmax.md)
 [this is another test](sparkmax.md)
