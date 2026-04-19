@@ -72,6 +72,7 @@
       - [Bang Bang Controllers](theory/bbc.md)
     - [Using Feedback & Feedforward Control](theory/fb_and_ff.md)
     - [Motion Profiling](theory/motion_profiling.md)
+    - [Extra Resources and Citations](theory/sources.md)
 - [Troubleshooting Guides](troubleshooting/troubleshooting.md)
   - [How to Diagnose Common Issues](troubleshooting/common_issues.md)
     - [CAN errors](troubleshooting/can_errors.md)
