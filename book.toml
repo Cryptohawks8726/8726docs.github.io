@@ -1,8 +1,8 @@
 [book]
-title = "8726 Control Handbook"
-authors = ["Cryptohawks"]
+title = "The 8726 Control Handbook"
+authors = ["Cryptohawks Control"]
 language = "en"
 
 [output.html]
 mathjax-support = true
-git-repository-url = "https://github.com/Cryptohawks8726/Docs"
+git-repository-url = "https://github.com/Cryptohawks8726/docs"
