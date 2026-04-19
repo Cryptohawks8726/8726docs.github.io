@@ -13,4 +13,4 @@ NEO Vortexes are typically controlled using a [SparkFlex motor controller.](http
 
 | Port         | Wire Type   | Current Draw  | Required | Where is it?            | Additional Info        |
 | ------------ | ----------- | ------------- | -------- | ----------------------- | ---------------------- |
-| Encoder port   | 22 gauge    |  amps | &check;  | Side connecting to motor controller  | Enables connection to the motor's encoder |
+| 6-pin Encoder port   | 22 gauge    |  amps | &check;  | Side connecting to motor controller  | Enables connection to the motor's encoder |

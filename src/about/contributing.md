@@ -102,10 +102,10 @@ The same syntax is used to link to other parts of the book similar
 to how you would link to other parts of a normal website. Instead of a URL,
 use the local file path or the filename of the page you want to link to.
 If you are linking to a page found in the same folder as the current page, then simply use the filename. Otherwise, you would need to cd back into the `/src` folder using `../` and then follow it up with the path to the destination (you may need to write `../` more than once).
-For example, this page is located at `src/about/contributing.md`. If you wanted to provide a link to `about.md`,
-which is found in the same folder, then you would write `[about page](about.md)`.
+For example, this page is located at `src/about/contributing.md`. If I wanted to provide a link to `about.md`,
+which is found in the same folder, then I would write `[about page](about.md)`.
 
-If I wanted to link to the inventory page, which is found under `/src/parts/`, then I would write `[inventory page](../parts/inventory.md)`.
+If I wanted to link to the inventory page, which is found under `/src/parts/`, then I'd write `[inventory page](../parts/inventory.md)`.
 You can either use the markdown file ending (.md) or swap it out for .html, since an HTML file of the same name will be generated
 when the book is built.
 
@@ -147,5 +147,10 @@ and run `mdBook build`, which will build a website in a folder titled `book`. Ru
 host the website at localhost:3000. For more information and installation instructions,
 see [mdBook's user guide](https://rust-lang.github.io/mdBook/guide/installation.html).
 
-[this is a test](../parts/sparkmax.md)
-[this is another test](about.md)
+## Resources
+
+Below are some helpful resources to reference when creating docs:
+
+| Resource        | Description |
+| ------------ | ------------ |
+| [REV Documention](https://docs.revrobotics.com/)  | Provides information on different REV components/software (components are found in their own subcategories)|
