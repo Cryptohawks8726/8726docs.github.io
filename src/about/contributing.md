@@ -151,6 +151,9 @@ see [mdBook's user guide](https://rust-lang.github.io/mdBook/guide/installation.
 
 Below are some helpful resources to reference when creating docs:
 
+> [!IMPORTANT]
+> Please don't copy these verbatim. Only include information that is necessary and specific to our needs.
+
 | Resource        | Description |
 | ------------ | ------------ |
 | [REV Documention](https://docs.revrobotics.com/)  | Provides information on different REV components/software (components are found in their own subcategories)|
